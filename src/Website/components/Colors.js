@@ -1,0 +1,11 @@
+export const brandColor = "#0F2260";
+export const lightColor = "#f8f9fa";
+export const darkColor = "#212529";
+export const dangerColor = "#dc3545";
+export const secondaryColor = "#6c757d";
+export const successColor = "#198754";
+export const textDay = "#000";
+export const nightHeadingTextColor = "#fff";
+export const dayHeadingTextColor = "#000";
+export const nightParagraphColor = "#fff";
+export const dayParagraphColor = "#000";
