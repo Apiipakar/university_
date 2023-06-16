@@ -5,9 +5,9 @@ import { Home } from "./Website/Pages/Home";
 // main program function
 export const App = () => {
   return (
-    <BrowserRouter basename="/">
-      <Routes>
-        <Route path="/" element={<Home />} />
+    <BrowserRouter>
+      <Routes basename="/">
+        <Route exact path="/" element={<Home />} />
       </Routes>
     </BrowserRouter>
   );
