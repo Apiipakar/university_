@@ -10,9 +10,6 @@ import {
   secondaryColor,
 } from "./Colors";
 import { MdSunny } from "react-icons/md";
-import Fade from "react-reveal/Fade";
-import Flip from "react-reveal/Flip";
-import Zoom from "react-reveal/Zoom";
 
 // main function of program
 export const Header = ({
@@ -101,21 +98,19 @@ export const Header = ({
                 )}
               </Link>
 
-              <Fade top>
-                <ul
-                  className="absolute top-10 rounded-b left-3 shadow-xl flex flex-col z-50 w-52"
-                  style={{ background: theme, display: showDrop }}>
-                  <li className="border-b border-sky-200 px-1 py-2 hover:bg-sky-300">
-                    <Link style={{ color: paragraph }}>Admin Login</Link>
-                  </li>
-                  <li className="border-b border-sky-200 px-1 py-2 hover:bg-sky-300">
-                    <Link style={{ color: paragraph }}>Teacher Login</Link>
-                  </li>
-                  <li className="px-1 py-2 hover:bg-sky-300">
-                    <Link style={{ color: paragraph }}>Student Login</Link>
-                  </li>
-                </ul>
-              </Fade>
+              <ul
+                className="absolute top-10 rounded-b left-3 shadow-xl flex flex-col z-50 w-52"
+                style={{ background: theme, display: showDrop }}>
+                <li className="border-b border-sky-200 px-1 py-2 hover:bg-sky-300">
+                  <Link style={{ color: paragraph }}>Admin Login</Link>
+                </li>
+                <li className="border-b border-sky-200 px-1 py-2 hover:bg-sky-300">
+                  <Link style={{ color: paragraph }}>Teacher Login</Link>
+                </li>
+                <li className="px-1 py-2 hover:bg-sky-300">
+                  <Link style={{ color: paragraph }}>Student Login</Link>
+                </li>
+              </ul>
             </li>
             <li className="list-none">
               <NavLink

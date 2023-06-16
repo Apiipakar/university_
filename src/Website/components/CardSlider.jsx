@@ -1,7 +1,5 @@
 import React from "react";
-import Fade from "react-reveal/Fade";
-import Slide from "react-reveal/Slide";
-import Jump from "react-reveal/Jump";
+
 import { facultyData } from "./ServiceData";
 import { brandColor } from "./Colors";
 export const CardSlider = ({ theme, headText, paragraph }) => {

@@ -2,10 +2,7 @@ import React, { useState } from "react";
 import { facultyData } from "./ServiceData";
 import { MdChevronLeft, MdChevronRight } from "react-icons/md";
 import { brandColor } from "./Colors";
-import Fade from "react-reveal/Fade";
-import Slide from "react-reveal/Slide";
-import Jump from "react-reveal/Jump";
-import Zoom from "react-reveal/Zoom";
+
 import { CardSlider } from "./CardSlider";
 import { Certificate } from "./Certificate";
 import { Cities } from "./Cities";
@@ -99,14 +96,12 @@ export const Application = ({ theme, headText, paragraph }) => {
           )}
         </div>
         {/* answer one */}
-        <Fade top>
-          <div className="answer w-11/12 md:w-3/4  bg-gray-300 items-center  m-auto rounded-b flex justify-between">
-            <h5 className="text-sm py-5 px-3" style={{ display: answerOne }}>
-              Students Set And Listens New Students For They Ere Opinion And
-              They Allow Students To Choose Their Hoppy Faculty
-            </h5>
-          </div>
-        </Fade>
+        <div className="answer w-11/12 md:w-3/4  bg-gray-300 items-center  m-auto rounded-b flex justify-between">
+          <h5 className="text-sm py-5 px-3" style={{ display: answerOne }}>
+            Students Set And Listens New Students For They Ere Opinion And They
+            Allow Students To Choose Their Hoppy Faculty
+          </h5>
+        </div>
         {/* question two */}
         <div className="question w-11/12 px-2 py-3 md:w-3/4 bg-blue-900 items-center md:p-6 m-auto mt-4 flex justify-between">
           <h2 className="text-sm md:text-xl text-white font-bold">
@@ -131,14 +126,12 @@ export const Application = ({ theme, headText, paragraph }) => {
           )}
         </div>
         {/* answer two */}
-        <Fade top>
-          <div className="answer w-11/12 md:w-3/4  bg-gray-300 items-center  m-auto rounded-b flex justify-between">
-            <h5 className="text-sm py-5 px-3" style={{ display: answerTwo }}>
-              Students Set And Listens New Students For They Ere Opinion And
-              They Allow Students To Choose Their Hoppy Faculty
-            </h5>
-          </div>
-        </Fade>
+        <div className="answer w-11/12 md:w-3/4  bg-gray-300 items-center  m-auto rounded-b flex justify-between">
+          <h5 className="text-sm py-5 px-3" style={{ display: answerTwo }}>
+            Students Set And Listens New Students For They Ere Opinion And They
+            Allow Students To Choose Their Hoppy Faculty
+          </h5>
+        </div>
         {/* question three */}{" "}
         <div className="question w-11/12 px-2 py-3 md:w-3/4 bg-blue-900 items-center md:p-6 m-auto mt-4 flex justify-between">
           <h2 className="text-sm md:text-xl text-white font-bold">
@@ -163,20 +156,17 @@ export const Application = ({ theme, headText, paragraph }) => {
           )}
         </div>
         {/* answer Three */}
-        <Fade top>
-          <div className="answer w-11/12 md:w-3/4  bg-gray-300 items-center  m-auto rounded-b flex justify-between">
-            <h5 className="text-sm py-5 px-3" style={{ display: answerThree }}>
-              Students Set And Listens New Students For They Ere Opinion And
-              They Allow Students To Choose Their Hoppy Faculty
-            </h5>
-          </div>
-        </Fade>
+        <div className="answer w-11/12 md:w-3/4  bg-gray-300 items-center  m-auto rounded-b flex justify-between">
+          <h5 className="text-sm py-5 px-3" style={{ display: answerThree }}>
+            Students Set And Listens New Students For They Ere Opinion And They
+            Allow Students To Choose Their Hoppy Faculty
+          </h5>
+        </div>
       </div>
       <Testimonials />
       <div className="w-full md:w-11/12 capitalize md:m-auto">
-        <Zoom>
-          <Gallery theme={theme} paragraph={paragraph} headText={headText} />
-        </Zoom>
+        <Gallery theme={theme} paragraph={paragraph} headText={headText} />
+
         <Contact theme={theme} paragraph={paragraph} headText={headText} />
       </div>
     </section>

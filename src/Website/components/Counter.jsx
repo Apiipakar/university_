@@ -1,6 +1,5 @@
 import React from "react";
 import CountApp from "react-countup";
-import Zoom from "react-reveal/Zoom";
 import theater from "../../images/theater.jpg";
 export const Counter = () => {
   return (
