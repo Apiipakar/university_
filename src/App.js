@@ -5,8 +5,8 @@ import { Home } from "./Website/Pages/Home";
 // main program function
 export const App = () => {
   return (
-    <BrowserRouter>
-      <Routes basename="/">
+    <BrowserRouter basename="/">
+      <Routes>
         <Route exact path="/" element={<Home />} />
       </Routes>
     </BrowserRouter>
