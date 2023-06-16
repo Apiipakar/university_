@@ -5,7 +5,7 @@ import { Home } from "./Website/Pages/Home";
 // main program function
 export const App = () => {
   return (
-    <BrowserRouter basename="/">
+    <BrowserRouter basename="/university_">
       <Routes>
         <Route exact path="/" element={<Home />} />
       </Routes>
