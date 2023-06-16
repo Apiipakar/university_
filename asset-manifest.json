@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/university/static/css/main.81853bc8.css",
+    "main.js": "/university/static/js/main.bd4d238f.js",
+    "static/media/logo2.png": "/university/static/media/logo2.92dd471d95da36a38a24.png",
+    "static/media/london.jpg": "/university/static/media/london.22b93282e70f6877dc63.jpg",
+    "static/media/paris.jpg": "/university/static/media/paris.15e7e1775ea473cf5eab.jpg",
+    "static/media/graduation.jpg": "/university/static/media/graduation.1498f9d66c2568376380.jpg",
+    "static/media/library.jpg": "/university/static/media/library.f14d62f8c0784f9700aa.jpg",
+    "static/media/berlin.jpg": "/university/static/media/berlin.4cbb829e1d2f87e16918.jpg",
+    "static/media/medicine.jpg": "/university/static/media/medicine.f315fa00cb8b81a168a3.jpg",
+    "static/media/Economic.jpg": "/university/static/media/Economic.c52acb5020de84719ae3.jpg",
+    "static/media/Education.jpg": "/university/static/media/Education.8bada593ff3dd146af39.jpg",
+    "static/media/theater.jpg": "/university/static/media/theater.0e6dd9ec41c529e3b8a7.jpg",
+    "static/media/informatonTechnology.jpg": "/university/static/media/informatonTechnology.b8cc01278f0e2a191404.jpg",
+    "static/media/computerLab.jpg": "/university/static/media/computerLab.b368e78917171179aee4.jpg",
+    "static/media/personOne.jpg": "/university/static/media/personOne.bf9e3a7e213cc0b97bc5.jpg",
+    "static/media/Accounting.jpg": "/university/static/media/Accounting.f7177be4196f2122a838.jpg",
+    "static/media/medical_lab.jpg": "/university/static/media/medical_lab.b1bccc433e899e930cfd.jpg",
+    "static/media/bachelor.jpg": "/university/static/media/bachelor.f5de2a95d099bf65fdc7.jpg",
+    "static/media/master.jpg": "/university/static/media/master.7523da736db5799faee3.jpg",
+    "static/media/sharia.jpg": "/university/static/media/sharia.d7d7e9a3da65fc11d74e.jpg",
+    "static/media/diploma.jpg": "/university/static/media/diploma.f66e22c879cb9694f23e.jpg",
+    "static/media/dental.jpg": "/university/static/media/dental.95b21d095097c9cdf499.jpg",
+    "static/media/engineering.jpg": "/university/static/media/engineering.db6d4407c7371843091d.jpg",
+    "static/media/veterinary.jpg": "/university/static/media/veterinary.28b0553bc6e551cff4f8.jpg",
+    "index.html": "/university/index.html",
+    "main.81853bc8.css.map": "/university/static/css/main.81853bc8.css.map",
+    "main.bd4d238f.js.map": "/university/static/js/main.bd4d238f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.81853bc8.css",
+    "static/js/main.bd4d238f.js"
+  ]
+}
